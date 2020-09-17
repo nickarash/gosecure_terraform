@@ -1,6 +1,5 @@
 # GoSecure terraform exercise
-
-This project is capable of spinning up the VPC for the GoSecure project in test environment. As part of launching the VPC, we create 2 tiers of subnets across 1 Availability Zone.
+This project creates a VPC, a public and private subnet, and an EC2 t2 small instance with two interfaces, one on each subnet.
 
 ## Dependencies
 - Terraform 0.13+
